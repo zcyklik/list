@@ -1,0 +1,16 @@
+{
+    "id": 79922944,
+    "name": "Conical Depression",
+    "author": "KrmaL",
+    "creators": ["KrmaL"],
+    "verifier": "KrmaL",
+    "verification": "https://www.youtube.com/watch?v=yub12mIMcH4",
+    "percentToQualify": "100",
+    "songID": "Stereo Madness",
+    "records": [
+        {
+            "user": "runtimeerop",
+            "percent": 100
+        }
+    ]
+}

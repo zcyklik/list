@@ -1,0 +1,20 @@
+{
+    "id": 10565740,
+    "name": "Bloodbath",
+    "author": "Riot",
+    "creators": ["Riot", "Weoweoteo", "Vermillion", "Michigun", "Evasium", "Crack", "ASonicMen", "Etzer", "Havok", "Giron", "Ggb0y"],
+    "verifier": "Riot",
+    "verification": "https://www.youtube.com/watch?v=wqhZNGYwWoc",
+    "percentToQualify": "100",
+    "songID": 467339,
+    "records": [
+        {
+            "user": "ggtomath",
+            "percent": 100
+        },
+        {
+            "user": "runtimeerop",
+            "percent": 100
+        }
+    ]
+}

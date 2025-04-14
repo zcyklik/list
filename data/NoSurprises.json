@@ -1,0 +1,16 @@
+{
+    "id": 94837260,
+    "name": "No Surprises",
+    "author": "MrPepper1",
+    "creators": ["MrPepper1", "Yuramistake", "zYuko"],
+    "verifier": "zYuko",
+    "verification": "https://www.youtube.com/watch?v=8cFFo5tHk64",
+    "percentToQualify": "100",
+    "songID": 126753,
+    "records": [
+        {
+            "user": "Kenji127",
+            "percent": 100
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "id": 108182698,
+    "name": "MINIMUM",
+    "author": "Insidee",
+    "creators": ["Insidee"],
+    "verifier": "Insidee",
+    "verification": "https://www.youtube.com/watch?v=H64vuW_J5zk",
+    "percentToQualify": "100",
+    "songID": 1122932,
+    "records": [
+        {
+            "user": "Kenji127",
+            "percent": 100
+        }
+    ]
+}

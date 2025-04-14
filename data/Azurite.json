@@ -1,0 +1,24 @@
+{
+    "id": 62214792,
+    "name": "Azurite",
+    "author": "Sillow",
+    "creators": ["Sillow"],
+    "verifier": "Sillow",
+    "verification": "https://www.youtube.com/watch?v=Nw8V0_CViWw",
+    "percentToQualify": "100",
+    "songID": 118355,
+    "records": [
+        {
+            "user": "brainiactop",
+            "percent": 100
+        },
+        {
+            "user": "runtimeerop",
+            "percent": 100
+        },
+        {
+            "user": "ggtomath",
+            "percent": 100
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "id": 75813671,
+    "name": "Fingerdash v3",
+    "author": "Noriega",
+    "creators": ["Noriega"],
+    "verifier": "Noriega",
+    "verification": "https://www.youtube.com/watch?v=dqTs-L3pAK8",
+    "percentToQualify": "100",
+    "songID": "Fingerdash",
+    "records": [
+        {
+            "user": "Kenji127",
+            "percent": 100
+        }
+    ]
+}

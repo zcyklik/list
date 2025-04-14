@@ -1,0 +1,16 @@
+{
+    "id": 79922944,
+    "name": "Quantum Processing",
+    "author": "Riot",
+    "creators": ["Riot", "Hinds", "Sil3nce"],
+    "verifier": "Rampage",
+    "verification": "https://www.youtube.com/watch?v=sx84tcnNgAI",
+    "percentToQualify": "100",
+    "songID": "Blast Processing",
+    "records": [
+        {
+            "user": "runtimeerop",
+            "percent": 100
+        }
+    ]
+}
