@@ -1,0 +1,17 @@
+{
+    "id": 118209355,
+    "name": "Tidal Zov fix",
+    "author": "runtimeerop",
+    "creators": ["lariongg", "dre9wo", "texter", "teftelya", "runtimeerop"],
+    "verifier": "runtimeerop",
+    "description": "bugfix version, verified by me",
+    "verification": "https://www.youtube.com/watch?v=lKgDhWCEfQo",
+    "percentToQualify": "100",
+    "songID": 1266014,
+    "records": [
+        {
+            "user": "runtimeerop",
+            "percent": 100
+        }
+    ]
+}
