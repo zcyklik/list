@@ -1,0 +1,17 @@
+{
+    "id": 55985772,
+    "name": "Tech Manifestation",
+    "author": "Pleoslim",
+    "creators": ["Pleoslim", "MakFeed"],
+    "verifier": "Dolphy",
+    "description": "Collab with MakFeed. 2 month of building",
+    "verification": "https://www.youtube.com/watch?v=w7dPmWLeaAA",
+    "percentToQualify": "100",
+    "songID": 566295,
+    "records": [
+        {
+            "user": "ggtomath",
+            "percent": 100
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": 70484097,
+    "name": "Endless Dream",
+    "author": "DreamTide",
+    "creators": ["DreamTide"],
+    "verifier": "DreamTide",
+    "description": "Life is faded, and reality doesnt make sense. There never was a beginning nor a forseeable end. Only an endless dream..",
+    "verification": "https://www.youtube.com/watch?v=-YskZjOEBPw",
+    "percentToQualify": "100",
+    "songID": 952053,
+    "records": [
+        {
+            "user": "Kenji127",
+            "percent": 100
+        },
+        {
+            "user": "runtimeerop",
+            "percent": 100
+        }
+    ]
+}

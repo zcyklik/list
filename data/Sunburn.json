@@ -1,0 +1,17 @@
+{
+    "id": 73005068,
+    "name": "sunburn",
+    "author": "pocke",
+    "creators": ["pocke"],
+    "verifier": "cxn",
+    "description": "my solo extreme!! thanks to cxn for verifying and the playtesters for making this level possible",
+    "verification": "https://www.youtube.com/watch?v=TJW0igkGVSw",
+    "percentToQualify": "100",
+    "songID": 639410,
+    "records": [
+        {
+            "user": "Kenji127",
+            "percent": 100
+        }
+    ]
+}

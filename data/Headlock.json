@@ -1,0 +1,17 @@
+{
+    "id": 94353238,
+    "name": "Headlock",
+    "author": "pocke",
+    "creators": ["pocke"],
+    "verifier": "pocke",
+    "description": "my solo 2-player demon!",
+    "verification": "https://www.youtube.com/watch?v=F22sORJ87Is",
+    "percentToQualify": "100",
+    "songID": 752778,
+    "records": [
+        {
+            "user": "Kenji127",
+            "percent": 100
+        }
+    ]
+}

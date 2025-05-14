@@ -1,0 +1,17 @@
+{
+    "id": 2374518,
+    "name": "Red World",
+    "author": "saRy",
+    "creators": ["saRy", "NePtunE"],
+    "verifier": "SrGuillester",
+    "description": "saRy is third long map. Design by Neptune",
+    "verification": "https://www.youtube.com/watch?v=ZH8iubNQBXE",
+    "percentToQualify": "100",
+    "songID": "Clubstep",
+    "records": [
+        {
+            "user": "ggtomath",
+            "percent": 100
+        }
+    ]
+}
