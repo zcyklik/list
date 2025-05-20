@@ -38,7 +38,13 @@
         <header :class="{ dark: store.dark }">
             <div class="logo">
                 <h2>Letovo Demon List</h2>
-                <p>v1.0.0</p>
+                <nav class="nav">
+                    <div class="nav__actions">
+                        <button class="nav__icon" onclick="window.open('http://github.com/zcyklik/list','_blank')">
+                            <img :src="'/assets/github.svg'" alt=""/>
+                        </button>
+                    </div>
+                </nav>
             </div>
             <nav class="nav">
                 <router-link class="nav__tab" to="/">
@@ -51,15 +57,10 @@
                     <span class="type-label-lg">Roulette</span>
                 </router-link>
                 <div class="nav__actions">
-                    <button
-                        class="nav__icon"
-                        @click.prevent="store.toggleDark()"
-                    >
-                        <img
-                            :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'"
-                            alt=""
-                        />
+                    <button class="nav__icon" @click.prevent="store.toggleDark()" >
+                        <img :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'" alt=""/>
                     </button>
+                    
                 </div>
             </nav>
         </header>

@@ -11,10 +11,6 @@ export default {
         verifier: {
             type: String,
             required: true,
-        },
-        description: {
-            type: String,
-            required: true,
         }
     },
     template: `
@@ -34,10 +30,6 @@ export default {
                 <p class="type-body">
                     <span>{{ verifier }}</span>
                 </p>
-                <div class="type-title-sm">Description</div>
-                <p class="type-body">
-                  <span{{ description }}</span>
-                </p>
             </template>
             <template v-else>
                 <div class="type-title-sm">Creators</div>
@@ -55,10 +47,6 @@ export default {
             <div class="type-title-sm">Publisher</div>
             <p class="type-body">
                 <span>{{ author }}</span>
-            </p>
-            <div class="type-title-sm">Description</div>
-            <p class="type-body">
-                <span>{{ description }}</span>
             </p>
         </div>
     `,
