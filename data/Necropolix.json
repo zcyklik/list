@@ -1,0 +1,17 @@
+{
+    "id": 36449129,
+    "name": "NecropoliX",
+    "author": "Namtar",
+    "creators": ["Namtar"],
+    "verifier": "TrusTa",
+    "description": "Necropolis remake! Enjoy :)",
+    "verification": "https://www.youtube.com/watch?v=oV9Oj7YyhpQ",
+    "percentToQualify": "100",
+    "songID": "Time Machine",
+    "records": [
+        {
+            "user": "Kenji127",
+            "percent": 100
+        }
+    ]
+}
