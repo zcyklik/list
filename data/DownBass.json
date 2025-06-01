@@ -1,0 +1,17 @@
+{
+    "id": 8147005,
+    "name": "Down Bass",
+    "author": "Spectruh",
+    "creators": ["Exterys", "Valyrie", "WoodedGold"],
+    "verifier": "Kevelia",
+    "description": "Another generic NC level",
+    "verification": "https://youtu.be/glrcPc_ObAQ?si=V3cdD4tkw9AflNDi",
+    "percentToQualify": "100",
+    "songID": 429524,
+    "records": [
+        {
+            "user": "brainiactop",
+            "percent": 100
+        }
+    ]
+}

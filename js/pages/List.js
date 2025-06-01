@@ -1,7 +1,7 @@
 import { store } from "../main.js";
 import { embed } from "../util.js";
 import { score } from "../score.js";
-import { fetchEditors, fetchList } from "../content.js";
+import { fetchList } from "../content.js";
 
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
@@ -83,26 +83,14 @@ export default {
                     <div class="errors" v-show="errors.length > 0">
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
-                    <div class="og">
-                        <p class="type-label-md"><a href="https://github.com/TheShittyList/GDListTemplate" target="_blank">Website layout stolen from here</a></p>
-                    </div>
-                    <template v-if="editors">
-                        <h3>List Editors</h3>
-                        <ol class="editors">
-                            <li v-for="editor in editors">
-                                <img :src="\`./assets/\${roleIconMap[editor.role]}\${store.dark ? '-dark' : ''}.svg\`" :alt="editor.role">
-                                <a v-if="editor.link" class="type-label-lg link" target="_blank" :href="editor.link">{{ editor.name }}</a>
-                                <p v-else>{{ editor.name }}</p>
-                            </li>
-                        </ol>
-                    </template>
+                    <p><a href="https://github.com/zcyklik/list" target="_blank">List Editor: cyklik</a></p>
+                    <p><a href="https://github.com/TheShittyList/GDListTemplate" target="_blank">Website layout link</a></p>
                 </div>
             </div>
         </main>
     `,
     data: () => ({
         list: [],
-        editors: [],
         loading: true,
         selected: 0,
         errors: [],
@@ -134,8 +122,6 @@ export default {
     async mounted() {
         try {
             this.list = await fetchList();
-            this.editors = await fetchEditors();
-
             if (!this.list) {
                 this.errors = [
                     "Failed to load list. Please check the browser console for more details.",
@@ -150,9 +136,6 @@ export default {
                 );
             }
 
-            if (!this.editors) {
-                this.errors.push("Failed to load list editors.");
-            }
         } catch (error) {
             console.error('Error in List component:', error);
             this.errors = ["An unexpected error occurred. Please check the browser console for details."];
