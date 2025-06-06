@@ -83,8 +83,9 @@ export default {
                     <div class="errors" v-show="errors.length > 0">
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
-                    <p><a href="https://github.com/zcyklik/list" target="_blank">List Editor: cyklik</a></p>
-                    <p><a href="https://github.com/TheShittyList/GDListTemplate" target="_blank">Website layout link</a></p>
+                    <p><a href="https://zcyklik.github.io" target="_blank">List Editor: cyklik</a></p>
+                    <p><a href="https://github.com/zcyklik/list" target="_blank">Github repo</a></p>
+                    <p><a href="https://github.com/TheShittyList/GDListTemplate" target="_blank">Website template link</a></p>
                 </div>
             </div>
         </main>
