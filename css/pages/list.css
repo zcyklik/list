@@ -81,7 +81,7 @@
 .page-list .level-container .level .records .percent,
 .page-list .level-container .level .records .user,
 .page-list .level-container .level .records .hz {
-    padding-block: 1rem;
+    padding-block: 0.75rem;
 }
 .page-list .level-container .level .records .user {
     width: 100%;
@@ -124,5 +124,9 @@
     height: 1.25rem;
 }
 .page-list .meta .editors li a:hover {
+    text-decoration: underline;
+}
+
+.underline {
     text-decoration: underline;
 }

@@ -42,9 +42,8 @@ export default {
                     <template v-if="levels.length > 0">
                         <!-- Completed Levels -->
                         <div class="level" v-for="(level, i) in levels.slice(0, progression.length)">
-                            <a :href="level.video" class="video">
-                                <img :src="getThumbnailFromId(getYoutubeIdFromUrl(level.video))" alt="">
-                            </a>
+                            <!-- <a :href="level.video" class="video"><img :src="getThumbnailFromId(getYoutubeIdFromUrl(level.video))" alt=""></a> -->
+                            <a :href="level.video" target="_blank" class="video"><img :src="level.thumbnail" width=190 alt=""></a>
                             <div class="meta">
                                 <p>#{{ level.rank }}</p>
                                 <h2>{{ level.name }}</h2>
@@ -53,9 +52,8 @@ export default {
                         </div>
                         <!-- Current Level -->
                         <div class="level" v-if="!hasCompleted">
-                            <a :href="currentLevel.video" target="_blank" class="video">
-                                <img :src="getThumbnailFromId(getYoutubeIdFromUrl(currentLevel.video))" alt="">
-                            </a>
+                            <!-- <a :href="currentLevel.video" class="video"><img :src="getThumbnailFromId(getYoutubeIdFromUrl(currentLevel.video))" alt=""></a> -->
+                            <a :href="currentLevel.video" class="video" target="_blank"><img :src="currentLevel.thumbnail" width=190 alt=""></a>
                             <div class="meta">
                                 <p>#{{ currentLevel.rank }}</p>
                                 <h2>{{ currentLevel.name }}</h2>
@@ -77,9 +75,8 @@ export default {
                         <!-- Remaining Levels -->
                         <template v-if="givenUp && showRemaining">
                             <div class="level" v-for="(level, i) in levels.slice(progression.length + 1, levels.length - currentPercentage + progression.length)">
-                                <a :href="level.video" target="_blank" class="video">
-                                    <img :src="getThumbnailFromId(getYoutubeIdFromUrl(level.video))" alt="">
-                                </a>
+                                <!-- <a :href="level.video" target="_blank" class="video"><img :src="getThumbnailFromId(getYoutubeIdFromUrl(level.video))" alt=""></a> -->
+                                <a :href="level.video" target="_blank" class="video"><img :src="level.thumbnail" width=190 alt=""></a>
                                 <div class="meta">
                                     <p>#{{ level.rank }}</p>
                                     <h2>{{ level.name }}</h2>
@@ -184,6 +181,7 @@ export default {
                 id: lvl.id,
                 name: lvl.name,
                 video: lvl.verification,
+                thumbnail: `../../assets/thumbnails/${lvl.id}.png`
             }));
             const list = [];
             if (this.useMainList) list.push(...fullListMapped.slice(0, 75));

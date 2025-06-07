@@ -41,7 +41,9 @@ export default {
                     <h1>{{ level.name }}</h1>
                     <h3>{{ level.description }}</h3>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
-                    <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
+                    <img :src="thumbnail" />
+                    <p class="underline"><a :href="video" target="_blank">Watch verification video</a></p>
+                    <!--<iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>-->
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points</div>
@@ -84,7 +86,7 @@ export default {
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
                     <p><a href="https://zcyklik.github.io" target="_blank">List Editor: cyklik</a></p>
-                    <p><a href="https://github.com/zcyklik/list" target="_blank">Github repo</a></p>
+                    <p><a href="https://github.com/zcyklik/list" target="_blank">GitHub repo</a></p>
                     <p><a href="https://github.com/TheShittyList/GDListTemplate" target="_blank">Website template link</a></p>
                 </div>
             </div>
@@ -110,7 +112,8 @@ export default {
                 return '';
             }
             if (!this.level.showcase) {
-                return embed(this.level.verification);
+                //return embed(this.level.verification);
+                return this.level.verification;
             }
 
             return embed(
@@ -118,6 +121,9 @@ export default {
                     ? this.level.showcase
                     : this.level.verification
             );
+        },
+        thumbnail() {
+            return `../../assets/thumbnails/${this.level.id}.png`;
         },
     },
     async mounted() {
