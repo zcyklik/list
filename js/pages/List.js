@@ -123,7 +123,7 @@ export default {
             );
         },
         thumbnail() {
-            return `../../assets/thumbnails/${this.level.id}.png`;
+            return `https://zcyklik.github.io/thumbnails/${this.level.id}.png`;
         },
     },
     async mounted() {
